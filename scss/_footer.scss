@@ -1,0 +1,13 @@
+footer {
+    background-color: $color-footer ;
+    border: 2px solid black;
+    width: 98%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;;
+}
+footer > div > a{
+ font-size: 2rem;
+ color: black;
+ padding: 10px;
+}

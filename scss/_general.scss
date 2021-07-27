@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: $fondo;
+}
+h3 {
+    font-family: 'courgette', cursive;
+    text-align: center;
+    font-size: 3rem;
+    color: $color-h3;
+}
+
+h4 {
+    font-size: 3rem;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+
+.resaltar{
+    font-weight: bold;
+}
+h1 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Pacifico', sans-serif;
+    text-align: center;
+    color: $color-h1;
+    font-size: 60px;
+    text-shadow: 10px 10px 20px grey; 
+}
+
+.content-logo {
+    width: 200px;
+    border-radius: 50%;
+    border:2px solid $color-h1;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 10px;
+ img{
+    width: 100%;  
+}
+}
+.content-logo1 { /*clase para modificar los tamaños de las imagenes */
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    img{
+    width: 100%;  
+}}
+ 
+article {
+    background-color: #f1d4e4;
+    padding: 1rem;
+    margin: 0.5rem 1rem;
+    text-align: center;
+}
+
+.parrafo {
+    font-size: 2rem;
+    color: $color-parrafo;
+    text-align: justify;
+    padding: 10px;
+} 
+
+.border{
+    border: 1px solid #D6A5FE;
+}
+aside{
+    background-image: linear-gradient(to bottom,rgb(255, 247, 250), #D6A5FE);
+} 
+.redes {
+    text-align: center;
+    font-size: 6rem;  
+}
+aside > div > a{
+    color: black;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: flex-start;   
+    article {
+    width: auto;
+    height: 280px;
+}}

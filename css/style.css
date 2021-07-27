@@ -1,0 +1,98 @@
+ 
+  @media (min-width: 401px) and (max-width: 960px){
+    #grilla {
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "section aside"
+        "section aside"
+        "footer footer";
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: auto 384px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px; 
+        height: 100vh;
+        margin: 0;
+    }
+    .menu  ul{
+        flex-wrap: nowrap;
+    }
+    aside {
+        background-color: #D6A5FE;
+    }
+    section {
+        margin: 5px;
+        background-color: #fcddc2;
+    }
+    .parrafo {
+        color:black;
+        text-align: justify;
+    }
+} 
+
+ @media  (min-width: 961px){
+    
+    #grilla {
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "section section aside"
+        "section section aside"
+        "footer footer footer";
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: 10% 50% 40%;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px; 
+        height: 100vh;
+        margin:25px;
+    }
+    .menu  ul li {
+        width: 100%;
+    }
+    aside {
+        background-image: linear-gradient(to bottom,rgb(255, 247, 250), #D6A5FE);
+    }
+    section {
+        background-color: rgb(255, 247, 250) ;
+    }
+    .parrafo {
+        color: black;
+        text-align: justify;
+    }
+    nav {
+        background-color: #fcddc2;
+    }
+    .content-logo {
+        width: 200px;
+        border-radius: 50%;
+        border:2px solid pink;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .content-logo img{
+        width: 100%;  
+    }
+    
+
+.redes {
+    text-align: center;
+    font-size: 6rem;  
+}
+aside > div > a{
+    color: black;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: flex-start;   
+}
+.flex article {
+    width: auto;
+    height: 280px;
+}
+ }
+ 

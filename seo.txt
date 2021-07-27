@@ -1,0 +1,20 @@
+1 - cambie los titulos de todas las paginas ya que el original era "vibra positiva flores de Bach" para todas
+  respetando el limite de google de no mas 60 caracteres para el titulo.
+	index.html (Inicio - vibra positiva Flores de bach)
+	bach.html (quien fue bach?)
+	contact.html (contactanos)
+	peolple.html (flores para humanos)
+	Pets.html (flores para mascotas)
+	aboutflowers (tipos de flores)
+2 - <meta name="keywords" content="flores, bach, cuerpo, mente, alma, mascotas, humanos, plantas, terapia, alternativa, energia">
+3 - se agregaron los meta descrption a cada pagina con una breve descripcion de cada una de ellas.
+4 - los titulos ya estaban ordenados por su correspondiente etiqueta dentro de cada seccion o contenedor. incluyendo 1 solo h1 por pagina
+5- imagenes optimizadas a unos pocos kb cada una de 2.16MB se bajo a 1.52MB hablando del total de imagenes. 
+envio en la carpeta img una subcarpeta "originales" con las imagenes sin modificar para corroborar la diferencia de peso
+obviamente no seran subidas al servidor para produccion.
+6- se agregaron las descripciones alt="" de las imagenes utilizadas
+7- se reorganizaron los nombres de los archivos html de las paginas
+
+
+
+

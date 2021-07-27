@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-size: 14px;
+    background-color: #ec9d6f;
+    color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container{
+    width: auto ;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 60px;
+    background: #fff;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+    padding: 32px;
+}
+.img-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 50%;
+    height: 50%;
+}
+.form-container {
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    color: #e18650;  
+}
+.contact-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.form-item {
+    position: relative;
+    width: 100%;
+    border: none;
+    background: #f7f7f7;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    height: 45px;
+}
+.form-item input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    height: 45px;
+    color: #4b4a4a;
+    padding: 0 32px;
+    letter-spacing: 0.5px;
+}
+
+.form-item span {
+    position: absolute;
+    left: -28px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: transparent;
+    border: 2px solid #e18650;
+
+} 
+.form-item input:focus ~ span {
+    background-color: #e18650;
+}
+
+ .boton {
+    
+    padding: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+ 
+@media screen and (min-width: 767px){
+    .contact-container{
+        width: 740px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 60px;
+        background: #fff;
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+        padding: 32px;
+    }
+}
+    
